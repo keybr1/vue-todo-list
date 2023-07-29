@@ -5,13 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    todos: [
-      {
-        field_num: 22,
-        field_value: "Create app",
-        field_ready: false
-      }
-    ]
+    todos: []
   },
   getters: {
     allTodos:(state) => state.todos
